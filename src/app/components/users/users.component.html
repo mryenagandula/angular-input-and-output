@@ -1,0 +1,6 @@
+<div class="container mt-4">
+    <div class="row">
+        <app-users-list (selectUserDetails)="selectUserDetails($event)" class="col-md-4"></app-users-list>
+        <app-user-details class="col-md-8" [selectedUser]="selectedUser"></app-user-details>
+    </div>
+</div>
